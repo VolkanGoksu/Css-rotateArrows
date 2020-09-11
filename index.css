@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    
+  }
+  
+  .container i {
+    font-size: 50px;
+    transition: all 0.4s ease;
+    margin-left: 20px;
+
+    
+  }
+  
+  .arrowone i:hover {
+    transform: rotateZ(+90deg);
+    color:gray;
+    
+  }
+
+  .arrowtwo i:hover{
+      transform:rotateZ(+180deg);
+      color:blue;
+  }
+  .arrowwide i:hover{
+    transform:rotateZ(+270deg);
+    color:red ;
+  }
+
+  .arrowcomplete i:hover{
+    transform:rotateZ(+360deg);
+    color: green;
+}
